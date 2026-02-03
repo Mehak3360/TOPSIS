@@ -6,7 +6,7 @@ TOPSIS is a multi-criteria decision-making technique used to rank alternatives b
 The program is designed as a **command-line tool** and supports both **CSV and Excel (.xlsx) input files**.
 
 - IF an excel file is provided,it is automatically converted into csv format before processing.
----
+  
 ## Features
 - Command line based execution
 - Supports CSV and Excel input files
@@ -15,7 +15,6 @@ The program is designed as a **command-line tool** and supports both **CSV and E
 - Generates ranked output in CSV format
 - Implements complete TOPSIS algorithm
 
----
 ## Methodology 
 TOPSIS works by comparing each alternative with two reference solutions:
 - Ideal best solution
@@ -43,13 +42,13 @@ TOPSIS works by comparing each alternative with two reference solutions:
    - Higher TOPSIS Score → Better Rank  
    - Lower TOPSIS Score → Lower Rank  
 
----
+
 ## Input Format
 The program accepts input through the command line.
 
 ### Command Line Syntax
 - `python topsis.py <InputDataFile> <Weights> <Impacts> <OutputFile>`
----
+
 ### Parameters Description
 
 | Parameter | Description |
@@ -58,12 +57,12 @@ The program accepts input through the command line.
 | Weights | Comma separated numeric weights |
 | Impacts | Comma separated impacts (+ for benefit, - for cost) |
 | OutputFile | Name of the output CSV file |
----
+
 ### Example 
 python topsis.py data.csv "1,1,1,2,1" "+,+,-,+,-" output.csv
 
 * Note: Please check that the number of weights and impacts entered matches the total number of criteria (features) in the input file.
----
+
 ## Output
 The program generates an output CSV file containing the TOPSIS results.
 -Example:
