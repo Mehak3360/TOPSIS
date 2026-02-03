@@ -48,7 +48,7 @@ TOPSIS works by comparing each alternative with two reference solutions:
 The program accepts input through the command line.
 
 ### Command Line Syntax
-`python topsis.py <InputDataFile> <Weights> <Impacts> <OutputFile>`
+- `python topsis.py <InputDataFile> <Weights> <Impacts> <OutputFile>`
 ---
 ### Parameters Description
 
