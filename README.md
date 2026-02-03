@@ -5,9 +5,8 @@ This project implements the **TOPSIS (Technique for Order Preference by Similari
 TOPSIS is a multi-criteria decision-making technique used to rank alternatives based on their closeness to the ideal solution.
 The program is designed as a **command-line tool** and supports both **CSV and Excel (.xlsx) input files**.
 
-If an Excel file is provided, it is automatically converted into CSV format before processing.
+- IF an excel file is provided,it is automatically converted into csv format before processing.
 ---
-
 ## Features
 - Command line based execution
 - Supports CSV and Excel input files
@@ -49,7 +48,7 @@ TOPSIS works by comparing each alternative with two reference solutions:
 The program accepts input through the command line.
 
 ### Command Line Syntax
-python topsis.py <InputDataFile> <Weights> <Impacts> <OutputFile>
+- python topsis.py <InputDataFile> <Weights> <Impacts> <OutputFile>
 ---
 ### Parameters Description
 
@@ -63,7 +62,7 @@ python topsis.py <InputDataFile> <Weights> <Impacts> <OutputFile>
 ### Example 
 python topsis.py data.csv "1,1,1,2,1" "+,+,-,+,-" output.csv
 
-**Note: Please check that the number of weights and impacts entered matches the total number of criteria (features) in the input file.
+* Note: Please check that the number of weights and impacts entered matches the total number of criteria (features) in the input file.
 ---
 ## Output
 The program generates an output CSV file containing the TOPSIS results.
